@@ -1,0 +1,33 @@
+1)
+<?xml version="1.0" encoding="UTF-8"?>
+<req>
+     <query>movies</query>
+	 <field name="genre">Rom com<field/>
+	 <field name="year">2022</field>
+	 <field name="option">film</field>	 
+	 <attribute type="starring">
+	      <field name="nameStar">Joel Edgerton</field>
+	 </attribute>
+</req>
+
+2)
+<?xml version="1.0" encoding="UTF-8"?>
+<wrap>
+      <req step="doRegister">
+	        <user type="name">Maria</user>
+	        <user type="email">cherry@mail.com</user>
+			<user type="password">010203</user>
+			<user type="gender">woman</user>
+	  </req>
+</wrap>
+3)
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+     <country step="fullInfo">
+	 <field name="mainland">Africa</field>
+	 <field name="country">Federal Republic of Nigeria</field>
+	 <field name="capital">Abuja</field>
+	 <field name="population">213 million</field>
+	 <field name="languages">English, Hausa, Yoruba, Igbo</field>
+	 </contry>
+</world>
